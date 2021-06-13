@@ -1,0 +1,129 @@
+:root {
+  --primary-text-color: #757575;
+  --title-color: #212121;
+  --white-color: #ffffff;
+  --accent-color: #2196f3;
+  --accent-background: #2f303a;
+}
+
+body {
+  color: var(--primary-text-color);
+  background: var(--white-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.prelogo {
+  color: var(--accent-color);
+}
+.logo {
+  color: #000000;
+}
+.logo,
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.link-nav {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.link:hover,
+.link-nav:hover,
+.address-link:hover,
+.footer-link:hover,
+.link:focus,
+.link-nav:focus,
+.address-link:focus,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+.link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.hero,
+.footer {
+  background-color: var(--accent-background);
+}
+.hero-title {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button {
+  font-family: inherit;
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+.features-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+.section,
+.section-title {
+  color: var(--title-color);
+}
+.section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.section-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.text-team {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.section-team {
+  background-color: #f5f4fa;
+}
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.footer-logo {
+  color: var(--white-color);
+}
+.address-link {
+  color: var(--white-color);
+}
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
