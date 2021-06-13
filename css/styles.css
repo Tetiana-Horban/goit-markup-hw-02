@@ -68,7 +68,7 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.button {
+.button-hero {
   font-family: inherit;
   background-color: var(--accent-color);
   color: var(--white-color);
@@ -84,6 +84,7 @@ ul {
   line-height: 1.14;
   text-transform: uppercase;
 }
+
 .text {
   font-size: 14px;
   line-height: 1.7;
@@ -126,4 +127,31 @@ ul {
 }
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* Портфолио*/
+.button-portfolio {
+  background: #f5f4fa;
+  color: var(--title-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+.portfolio-title {
+  color: var(--title-color);
+  font-weight: b700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-subject {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.8;
 }
