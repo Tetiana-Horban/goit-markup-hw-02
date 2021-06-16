@@ -5,13 +5,16 @@
   --accent-color: #2196f3;
   --accent-background: #2f303a;
 }
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
 body {
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
-}
-.list {
-  list-style-type: none;
 }
 /*Шапка*/
 /*Логотип*/
@@ -27,7 +30,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  text-decoration: none;
 }
 /*Навигация*/
 .link-nav {
@@ -36,25 +38,26 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
-.link:hover,
+.link-info:hover,
 .link-nav:hover,
 .address-link:hover,
 .footer-link:hover,
-.link:focus,
+.link-info:focus,
 .link-nav:focus,
 .address-link:focus,
 .footer-link:focus {
   color: var(--accent-color);
 }
-.link {
+.link-info {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
+}
+.link-nav.current {
+  color: var(--accent-color);
 }
 /*Герой*/
 .hero,
@@ -68,7 +71,6 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
 }
 .button-hero {
   font-family: inherit;
@@ -88,7 +90,6 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-transform: uppercase;
 }
 .text {
   font-size: 14px;
@@ -122,16 +123,12 @@ body {
   font-size: 14px;
   line-height: 1.7;
 }
-.footer-logo {
-  color: var(--white-color);
-}
+.footer-logo,
 .address-link {
   color: var(--white-color);
-  text-decoration: none;
 }
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
 }
 
 /* Портфолио*/
@@ -160,10 +157,4 @@ body {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.8;
-}
-.portfolio-list a {
-  text-decoration: none;
-}
-.portfolio-list {
-  list-style-type: none;
 }
