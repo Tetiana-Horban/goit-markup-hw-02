@@ -15,6 +15,7 @@ body {
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+  font-size: 16px;
 }
 /*Шапка*/
 /*Логотип*/
@@ -71,6 +72,7 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .button-hero {
   font-family: inherit;
@@ -90,6 +92,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 .text {
   font-size: 14px;
@@ -135,7 +138,7 @@ body {
 .button-portfolio {
   background: #f5f4fa;
   color: var(--title-color);
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
